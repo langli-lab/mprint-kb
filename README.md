@@ -10,6 +10,20 @@ The MPRINT knowledge portal employs a dual-version structure to accommodate dive
 
 ### Tables
 
-| File Name          | Description                                                                                                                                        |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| silver.zip          | MPRINT KB Silver dataset                    |
+| Table     | Description  |
+| ------------------ | ----------|
+| pmid2drug       | Drugs mentioned for each PubMed record   |
+|pmid2disease | Disease-related MeSH heading for each PubMed record|
+|pmid2population| Maternal and pediatric including specific sub-population (e.g., fetus, postpartum, etc.) for each PubMed records|
+|pmid2study_type| Study types associated with the PubMed records.|
+
+> NOTE:
+> 1. We use UMLS CUIs for drugs and diseases
+> 2. In study types,
+>    
+>    PK - Pharmacokenetic study
+>    
+>    PE - EPidemiological study
+>    
+>    CT - Clinical trial
+
